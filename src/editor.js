@@ -5,7 +5,8 @@ import "./styles/main.scss";
 import VideoBlock from "./components/blocks/VideoBlock";
 import ImageBlock from "./components/blocks/ImageBlock";
 import TextBlock from "./components/blocks/TextBlock";
-import LinkBlock from "./components/blocks/link-block"
+import LinkBlock from "./components/blocks/link-block";
+import newBlock01 from "./components/blocks/newblock01";
 
 
 const Editor = () => {
@@ -26,6 +27,7 @@ const Editor = () => {
         ImageBlock(editor);
         TextBlock(editor);
         LinkBlock(editor);
+        newBlock01(editor);
         
         setEditor(editor);
     }, []);
